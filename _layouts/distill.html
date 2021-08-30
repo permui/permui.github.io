@@ -64,7 +64,9 @@
         <p>{{ page.description }}</p>
       </d-title>
 
+      {% if page.show_author != false %}
       <d-byline></d-byline>
+      {% endif %}
 
       <d-article>
         {{ content }}
