@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: 
 nav: true
-display_categories: [have fun, course project]
+display_categories: [having fun, course project]
 horizontal: false
 ---
 <div class="projects">
@@ -19,14 +19,18 @@ horizontal: false
         <div class="container">
           <div class="row row-cols-2">
           {% for project in sorted_projects %}
-            {% include projects_horizontal.html %}
+            {% unless project.hide %}
+                {% include projects_horizontal.html %}
+            {% endunless %}
           {% endfor %}
           </div>
         </div>
       {% else %}
         <div class="grid">
           {% for project in sorted_projects %}
-            {% include projects.html %}
+            {% unless project.hide %}
+                {% include projects.html %}
+            {% endunless %}
           {% endfor %}
         </div>
       {% endif %}
