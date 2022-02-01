@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: 
 nav: true
@@ -19,18 +19,18 @@ horizontal: false
         <div class="container">
           <div class="row row-cols-2">
           {% for project in sorted_projects %}
-            {% unless project.hide %}
+            {% if project.show %}
                 {% include projects_horizontal.html %}
-            {% endunless %}
+            {% endif %}
           {% endfor %}
           </div>
         </div>
       {% else %}
         <div class="grid">
           {% for project in sorted_projects %}
-            {% unless project.hide %}
+            {% if project.show %}
                 {% include projects.html %}
-            {% endunless %}
+            {% endif %}
           {% endfor %}
         </div>
       {% endif %}

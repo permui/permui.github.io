@@ -5,6 +5,8 @@ description: A basic DBMS and SQL shell implemented in C++
 img: /assets/img/database-309919-pixabay.svg
 importance: 2
 category: course project
+permalink: /projects/mesql
+show: true
 ---
 
 This is the course project of _**Database System**_ in Zhejiang University, completed independently in my first undergraduate year. The primary aim of this project is to design a basic Database Management System that is **efficient, modular, low coupling and extensible**.

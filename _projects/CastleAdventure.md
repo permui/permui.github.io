@@ -6,5 +6,5 @@ img: /assets/img/castle-1483681_640-pixabay.jpg
 importance: 4
 category: course project
 redirect: https://github.com/permui/CastleAdventure
-hide: true
+show: false
 ---

@@ -1,11 +1,13 @@
 ---
 layout: distill
 title: Cyclist
-description: A RISC-V Single Cycle Processor
+description: A RISC-V Single Cycle Processor in Verilog
 img: /assets/files/cyclist/cyclist_on_Nexys_A7.jpg
 importance: 3
 category: course project
 show_author: false
+permalink: /projects/cyclist
+show: true
 ---
 
 This is the course project of **Computer Systems I**, the first course in a trilogy on computer systems. The first part deals with digital logic and computer organization, while the second and third will include operating system and computer architecture respectively.

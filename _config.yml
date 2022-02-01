@@ -9,8 +9,8 @@ last_name: Yu
 email: aoyang.yu.pro@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Aoyang Yu's personal website.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+# footer_text: >
+#   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 icon: λ # the emoji used as the favicon
 url:  https://permui.github.io/ # the base hostname & protocol for your site
@@ -29,7 +29,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -98,6 +98,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  blogs:
+    output: true
+    permalink: /blogs/:path/
 
 news_limit: 5
 

@@ -1,0 +1,21 @@
+<div>
+    <h2>Projects</h2>
+    <ul>
+
+    {% for category in page.display_categories %}
+        {% assign categorized_projects0 = site.projects | where: "category", category %}
+        {% assign categorized_projects = categorized_projects0 | where: "show", true %}
+        {% assign sorted_projects = categorized_projects | sort: "importance" %}
+        {% for project in sorted_projects %}
+            {% if project.redirect %}
+                {% assign project_link = project.redirect %}
+            {% else %}
+                {% assign project_link = project.permalink %}
+            {% endif %}
+            <li><a href="{{ project_link }}">{{ project.title }}</a>: {{ project.description }}</li>
+        {% endfor %}
+
+    {% endfor %}
+
+    </ul>
+</div>

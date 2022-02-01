@@ -1,0 +1,14 @@
+{% assign sorted_blogs = site.blogs | sort: "date" %}
+{% assign show_blogs = sorted_blogs | where: "show", true %}
+{% if show_blogs.size > 0 %}
+<div>
+    <h2>Blog Posts</h2>
+    <ul>
+        <!-- {% assign sorted_blogs = site.blogs | sort: "date" %} -->
+        {% for blog in show_blogs %}
+            <li><a href="{{ blog.permalink }}">{{ blog.title }}</a>: {{ blog.description }}</li>
+        {% endfor %}
+
+    </ul>
+</div>
+{% endif %}
