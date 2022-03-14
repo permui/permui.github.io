@@ -27,3 +27,5 @@ I am currently enthusiastic about the fancy world of **Programming Language Theo
 {% include_relative abouts/projects.html %}
 
 {% include_relative abouts/blogs.html %}
+
+{% include_relative abouts/miscs.html %}

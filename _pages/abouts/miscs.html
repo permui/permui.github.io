@@ -1,0 +1,10 @@
+{% assign show_miscs = site.miscs | where: "show", true %}
+<div>
+    <h2>Misc</h2>
+    <ul>
+        {% for item in show_miscs %}
+            <li><a href="{{ item.permalink }}">{{ item.title }}</a>{% if item.description != blank %}: {{ item.description }}{% endif %} </li>
+        {% endfor %}
+
+    </ul>
+</div>
