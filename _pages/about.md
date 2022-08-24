@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="http://www.en.cs.zju.edu.cn/">College of Computer Science and Technology</a> • <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>
+description: 
 
 profile:
   align: right
@@ -16,16 +16,8 @@ social: false # includes social icons at the bottom of the page
 display_categories: [having fun, course project]
 ---
 
-I am Aoyang Yu (余奥洋 in Chinese), a third-year undergraduate studying Computer Science at [Turing Class, Zhejiang University](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm). I am expected to graduate in 2023.
+I am Aoyang Yu (余奥洋 in Chinese), an undergraduate studying computer science at [Turing Class, Zhejiang University](http://www.en.cs.zju.edu.cn/turing_honors_class/list.htm). I am expected to graduate in 2023.
 
-I pursued my interests in computer science through **competitive programming** in my early days. The highly educational experience of competing in **Olympiad in Informatics (OI)** during my high school years has a far-reaching influence on me. In my freshman year, I participated in [an **ACM ICPC** Asia Regional Contest](https://icpc.global/regionals/finder/AR-Nannjing-2019) and won a gold medal with my team.
+I am interested in the fancy world of **programming language theory**, **proof assistants** and **homotopy type theory**. I want to do research in these fields!
 
-I am currently enthusiastic about the fancy world of **Programming Language Theory** and seek to do some research in this field.
-
-<div style="padding-bottom: 20px"></div>
-
-{% include_relative abouts/projects.html %}
-
-{% include_relative abouts/blogs.html %}
-
-{% include_relative abouts/miscs.html %}
+Here is my [CV](../assets/pdf/CV.pdf).
